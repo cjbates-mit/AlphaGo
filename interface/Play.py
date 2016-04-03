@@ -4,7 +4,7 @@ from AlphaGo.go import GameState
 
 class play_match(object):
 	"""Interface to handle play between two players."""
-	def __init__(self, player1, player2, save_dir, size=19):
+	def __init__(self, player1, player2, save_dir=None, size=19):
 		# super(ClassName, self).__init__()
 		self.player1 = player1
 		self.player2 = player2
